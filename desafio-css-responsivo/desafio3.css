@@ -35,7 +35,8 @@ h1 {
 }
 
 a {
-    margin-right: 30px;
+    margin-right: 40px;
+    margin-left: 20px;
     color: #646150;
     cursor: pointer;
 }
@@ -43,7 +44,7 @@ a {
 header {
     margin-bottom: 33px;
     margin-top: 23px;
-    font-size: 20px;
+    font-size: 40px;
     border-bottom: black;
     border-bottom: 10px;
 }
@@ -76,7 +77,11 @@ a:nth-child(4) {
     opacity: 0.6;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 840px) {
+    a {
+        margin-left: 10px;
+        margin-right: 20px;
+    }
     .section-bottom {
         width: 100vh;
         height: 50vh;
@@ -87,5 +92,9 @@ a:nth-child(4) {
         width: 375px;
         height: 320;
     }
+    header {
+        font-size: 20px;
+    }
+
 }
     
